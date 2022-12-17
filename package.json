@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhuThuan/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "phuthuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhuThuan/nodejs/issues"
+  },
+  "homepage": "https://github.com/PhuThuan/nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "i": "^0.3.7",
+    "nodemon": "^2.0.20"
+  }
+}
